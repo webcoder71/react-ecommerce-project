@@ -6,7 +6,8 @@ import Navbar from './components/Navbar';
 import ProductList from './components/ProductList';
 import ProductDetails from './components/ProductDetails';
 import Cart from './components/Cart';
-import ErrorPage from './components/ErrorPage'
+import ErrorPage from './components/ErrorPage';
+import Modal from './components/Modal';
 
 export default class App extends Component {
   render() {
@@ -20,7 +21,7 @@ export default class App extends Component {
           
           <Route component={ErrorPage}></Route>
         </Switch>
-        
+        <Modal />
       </React.Fragment>
     )
   }

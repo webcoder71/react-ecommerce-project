@@ -12,14 +12,37 @@ body{
   color: var(--mainDdark) !important;
 }
 .text-title{
-  font-family: 'Permanent Marker'serif;
+  font-family: 'Permanent Marker', serif;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
 .text-blue{
+  color: var(--mainBlue);
+}
+.text-bright{
   color: var(--lightBlue);
 }
-
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDdark);
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDdark) !important;
+}
+.btn-black:hover{
+  background: var(--mainDdark) !important;
+  color: var(--mainWhite) !important;
+}
+.cart-icon{
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
 
 
 
